@@ -51,8 +51,8 @@ const Get_LaunchesPast_Info = gql`
                                 </div>
 
                                 <div className="text-center">
-                                    <p className="text-xl text-orange font-bold mb-2">{launch.name}</p>
-                                    <p className="text-base text-orange-600 font-normal">{launch.mission_name} 
+                                    <p className="text-xl text-orange-500 font-bold mb-2">{launch.name}</p>
+                                    <p className="text-base text-orange-500 font-normal">{launch.mission_name} 
                                     <br/>
                                     {new Intl.DateTimeFormat('en-GB', { 
                                         month: 'long', 
